@@ -1,0 +1,1 @@
+This Terraform primitive enforces NIST 800-53 controls SC-28, AU-3, AU-6, CM-6, and AC-3 on an S3 data bucket and its dedicated logging bucket through encryption, versioning, public-access blocking, access logging, ownership controls, and required compliance tags.
