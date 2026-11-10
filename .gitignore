@@ -10,3 +10,6 @@ crash.log
 
 # OS noise
 .DS_Store
+
+# Terraform plan JSON generated during labs, not evidence
+terraform/**/plan.json
