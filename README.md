@@ -11,7 +11,8 @@ Each completed lab was deployed to a real AWS account with Terraform, checked fr
 | 2.3 Building Your First Compliant Resource | Terraform S3 primitive enforcing NIST 800-53 SC-28, AC-3, AU-3, AU-6, CM-6 | terraform/primitives/compliant-s3 | evidence/lab-2-3 | Complete |
 | 2.4 Terraform Modules for Compliance (GCP) | GCS bucket module with customer managed keys | None | None | Skipped. GCP billing was not available, and the course allowed moving on |
 | 2.5 IaC as Compliance Evidence | S3 Object Lock evidence vault, Bash capture script with SHA-256 manifest, Cosign signing | terraform/primitives/evidence-vault, scripts/capture-evidence.sh | evidence/lab-2-5 | Complete |
+| 3.4 Policy as Code with Conftest | Rego policies enforcing NIST 800-53 SC-28, AC-3, CM-6 on a Terraform plan, run as a fail-closed gate | policies/, scripts/policy-gate.sh | evidence/lab-3-4 | Complete |
 
 ## Tools used
 
-Terraform, AWS S3, AWS CLI, Bash, sha256sum, Cosign with Sigstore keyless signing, and Git.
+Terraform, AWS S3, AWS CLI, Bash, sha256sum, Cosign with Sigstore keyless signing, Git, Conftest, and OPA/Rego.
